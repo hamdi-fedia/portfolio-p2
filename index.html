@@ -20,6 +20,7 @@
    <li><a href="#news">PARCOUR</a></li>
    <li><a href="#contact">MES COMPETANCES</a></li>
    <li><a href="#about">MES PROJETS</a></li>
+   <li><a href="#cont">CONTACT</a></li>
  </ul>
  <div class="icon">
    <i class="fas fa-envelope"></i> <b> haamdi.fedia@gmail.com</b> <br>
@@ -38,7 +39,7 @@
    <p><strong>D</strong>éveloppeuse <strong>W</strong> eb</p>
    <button>voir le cv</button>
 </div>
-<h2>À PROPOS DE MOI</h2>
+<h2 id="home">À PROPOS DE MOI</h2>
 <div class="apropos">
    <div class="textapropos">
       <p>
@@ -46,7 +47,7 @@
       </p>
    </div>
 </div>
-<h2>PARCOUR</h2>
+<h2 id="news">PARCOUR</h2>
 <div class="page">
    <div class="timeline">
      <div class="timeline__group">
@@ -101,7 +102,7 @@
  
 
 <section class="competance">
-<h2>MES COMPETANCES </h2>
+<h2 id="contact">MES COMPETANCES </h2>
 <div class="com">HTML</div>
 
 <div class="rond ppp"></div>
@@ -181,21 +182,45 @@
 <div class="rondd ppp"></div>
 </section>
 <section class="projet">
-   <h2>MES PROJETS </h2>
+   <h2 id="about">MES PROJETS </h2>
    <img src="s1.png" class="ppp pad " width="300px" height="325px">
    <div class="text-projet">
-      <a href="">lien de projet</a>
+      <a href="https://github.com/hamdi-fedia/cvpro">lien de projet</a>
    </div>
    <img src="s2.png" class="ppp pad " width="300px" height="325px">
    <div class="text-projet1">
-      <a href="">lien de projet</a>
+      <a href="https://github.com/hamdi-fedia/meuble">lien de projet</a>
    </div>
    <img src="s3.png" class="ppp pad " width="300px" height="325px">
    <div class="text-projet2">
-      <a href="">lien de projet</a>
+      <a href="https://github.com/hamdi-fedia/simplon_brief">lien de projet</a>
    </div>
 </section>
+<section class="fed">
+  <h2 id="cont">CONTACT</h2>
+  <form >
+    <div>
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" placeholder="saisir votre nom" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label><br>
+        <input type="email" id="mail" placeholder="saisir votre mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label><br>
+        <textarea id="msg" placeholder="saisir votre message"  name="user_message"></textarea>
+    </div>
+    <button>envoyer</button>
+    <div class="map">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="450" height="270" id="gmap_canvas" src="https://maps.google.com/maps?q=ariana&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br></div></div>
+    </div>
+</form>
+
+</section>
+<br><br><br><br><br>
 </div>
- 
 </body>
 </html>
